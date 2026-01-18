@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>GrowBusy | Marketing + AI Receptionist + Customer Journey</title>
+  <meta name="description" content="GrowBusy helps appointment-based businesses grow with social media marketing, AI receptionists, and automated follow-ups that turn leads into booked appointments." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- IMPORTANT: replace YOUR-USERNAME -->
+  <link rel="canonical" href="https://YOUR-USERNAME.github.io/growbusy/" />
+
+  <!-- Social preview -->
+  <meta property="og:title" content="GrowBusy | More Leads. Faster Responses. More Booked Appointments." />
+  <meta property="og:description" content="Marketing → AI → Customer Journey. GrowBusy turns leads into booked appointments." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://YOUR-USERNAME.github.io/growbusy/" />
+
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#111827;
+      --text:#ffffff;
+      --muted:rgba(255,255,255,.80);
+      --line:rgba(255,255,255,.10);
+      --green:#22c55e;
+      --radius:18px;
+      --max:1100px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--max);margin:0 auto;padding:0 16px}
+    header{border-bottom:1px solid var(--line)}
+    nav{
+      display:flex;align-items:center;justify-content:space-between;
+      padding:16px 0; gap:12px; flex-wrap:wrap;
+    }
+    .brand{display:flex;align-items:center;gap:10px}
+    .brand img{height:36px;width:auto}
+    .links a{margin-left:16px;font-weight:700;opacity:.9}
+    .links a:hover{opacity:1}
+    .hero{
+      text-align:center;
+      padding:78px 0 56px;
+    }
+    .hero h1{
+      font-size:42px;
+      line-height:1.1;
+      margin:0 0 12px;
+    }
+    .hero p{
+      margin:0 auto;
+      max-width:760px;
+      color:var(--muted);
+    }
+    .btn{
+      display:inline-block;
+      margin-top:22px;
+      padding:14px 26px;
+      background:var(--green);
+      color:#07120b;
+      font-weight:900;
+      border-radius:12px;
+    }
+    section{padding:64px 0;border-top:1px solid rgba(255,255,255,.08)}
+    h2{text-align:center;margin:0 0 28px}
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:18px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid rgba(255,255,255,.06);
+      padding:24px;
+      border-radius:var(--radius);
+    }
+    .card h3{margin:0 0 8px}
+    .card p{margin:0;color:var(--muted)}
+    .contact p{text-align:center;color:var(--muted);margin:0}
+    footer{
+      border-top:1px solid var(--line);
+      padding:28px 0;
+      margin-top:10px;
+    }
+    .foot{
+      display:flex;justify-content:space-between;align-items:center;
+      gap:12px; flex-wrap:wrap;
+      color:rgba(255,255,255,.75);
+      font-weight:700;
+      font-size:14px;
+    }
+    .footBrand{display:flex;align-items:center;gap:10px}
+    .footBrand img{height:28px;width:auto}
+    @media (max-width:560px){
+      .hero h1{font-size:34px}
+      .links a{margin-left:10px}
+    }
+  </style>
+
+  <!-- Google business schema -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"GrowBusy",
+    "url":"https://YOUR-USERNAME.github.io/growbusy/",
+    "email":"info.growbusy@gmail.com",
+    "sameAs":["https://www.instagram.com/GrowBusyltd/"],
+    "description":"GrowBusy helps appointment-based businesses grow using social media marketing, AI receptionists, and automated customer journey systems to increase booked appointments."
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Embedded logo (no file upload needed) -->
+  <!-- NOTE: This is your GB logo as an image embedded directly into the HTML -->
+  <header>
+    <div class="wrap">
+      <nav>
+        <div class="brand">
+          <img
+            alt="GrowBusy logo"
+            src="data:image/png;base64,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..."
+          />
+          <strong>GrowBusy</strong>
+        </div>
+
+        <div class="links">
+          <a href="#services">Services</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h1>More Leads. Faster Responses.<br/>More Booked Appointments.</h1>
+        <p>
+          GrowBusy helps appointment-based businesses grow by combining social media marketing,
+          AI receptionists, and automated follow-ups so leads don’t slip through the cracks.
+        </p>
+        <a class="btn" href="#contact">Get a Free Growth Audit</a>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <h2>What We Do</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Marketing & Lead Generation</h3>
+            <p>Social media content + paid ads that create consistent inbound demand.</p>
+          </div>
+          <div class="card">
+            <h3>AI Receptionist</h3>
+            <p>Answer missed calls, qualify leads, and book appointments automatically.</p>
+          </div>
+          <div class="card">
+            <h3>Customer Journey Systems</h3>
+            <p>Reminders, follow-ups, reviews, and reactivation to increase lifetime value.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="wrap">
+        <h2>Pricing Models</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Fixed Package</h3>
+            <p>Upfront setup + monthly management and optimization.</p>
+          </div>
+          <div class="card">
+            <h3>Performance-Based</h3>
+            <p>The first payment gets the system running. We earn when results come in.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <h2>Contact GrowBusy</h2>
+        <p>
+          📧 <a href="mailto:info.growbusy@gmail.com">info.growbusy@gmail.com</a><br/><br/>
+          📸 <a href="https://www.instagram.com/GrowBusyltd/" target="_blank" rel="noopener">@GrowBusyltd</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot">
+        <div class="footBrand">
+          <img
+            alt="GrowBusy logo"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAADXCAYAAABxnT9C... (same as above)"
+          />
+          <span>© <span id="year"></span> GrowBusy</span>
+        </div>
+        <span>Marketing → AI → Customer Journey</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
